@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;800&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="./script.js"></script>
+    <title>Meus Heróis</title>
+  </head>
+  <body>
+    <header>
+      <div class="container-header">
+        <img class="logo" src="./assets/logo.png" alt="" />
+        <div class="nav">
+          <a href="#">
+            <h2 onclick="changeScene('screen-heroes')">HEROES</h2>
+          </a>
+          <a href="#">
+            <h2 onclick="changeScene('screen-skin')">SKIN</h2>
+          </a>
+        </div>
+      </div>
+    </header>
+    <main class="screen-home screen">
+      <img class="bg-home" src="./assets/bg-homepage.png" alt="" />
+    </main>
+
+    <div class="screen-heroes screen">
+      <div class="screen-heroes-container">
+        <!-- <header>
+          <div class="container-header">
+            <img class="logo" src="./assets/logo.png" alt="" />
+            <div class="nav">
+              <a href=""> <h2 onclick="changeScene()">HEROES</h2></a>
+              <a href=""><h2>SKIN</h2></a>
+            </div>
+          </div>
+        </header> -->
+
+        <div class="introduction">
+          <img src="./assets/stars.svg" alt="" />
+          <div>
+            <h1>TOP 5 HERÓIS FAVORITOS</h1>
+            <h4>E um pouco sobre eles</h4>
+          </div>
+        </div>
+
+        <div class="container-cards">
+          <div class="card">
+            <img
+              src="./assets/card_kiriko.png"
+              alt="imagem se uma garota em animação 3D com cabelo azul, asiatica, heroina de overwatch"
+            />
+            <div class="hero-name">
+              <h4>KIRIKO KAMORI</h4>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="./assets/card_mercy.png" alt="" />
+            <div class="hero-name"><h4>ANGELA ZIEGLER</h4></div>
+          </div>
+
+          <div class="card">
+            <img src="./assets/card_moira.jpg" alt="" />
+            <div class="hero-name"><h4>MOIRA</h4></div>
+          </div>
+
+          <div class="card">
+            <img src="./assets/card_widow.png" alt="" />
+            <div class="hero-name"><h4>WIDOWMAKER</h4></div>
+          </div>
+          <div class="card">
+            <img src="./assets/card_ana.png" alt="" />
+            <div class="hero-name"><h4>ANA AMARI</h4></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

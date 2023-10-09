@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*header*/
+:root {
+  font-size: 62.5%;
+
+  --primary-color-bg: hsl(204, 66%, 58%);
+  --secondary-color-bg: hsl(197, 56%, 84%);
+  --secundary-soft-color-bg: rgba(217, 217, 217, 0.5);
+  --text-color: hsl(0, 3%, 11%);
+}
+/*screen-home*/
+header {
+  max-width: 138.4rem;
+  margin: auto;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.5);
+}
+.container-header {
+  margin: auto;
+  max-width: 88rem;
+  display: flex;
+  align-items: center;
+}
+.nav {
+  display: flex;
+  margin-left: auto;
+  gap: 5.6rem;
+}
+.nav a {
+  text-decoration: none;
+  font-size: 2.4rem;
+  font-weight: 800;
+  font-family: "Epilogue";
+  color: var(--text-color);
+}
+
+/* body */
+body {
+  overflow-y: hidden;
+  background-color: var(--primary-color-bg);
+  
+}
+
+body .bg-home {
+  min-width: 100%;
+  min-height: 100vh;
+}
+
+main {
+  background-color: var(--primary-color-bg);
+}
+.hide {
+  display: none;
+}
+
+/*screen-heroes*/
+.screen-heroes {
+  /* display: grid; */
+  /* place-items: center; */
+  background-color: var(--secondary-color-bg);
+}
+.screen-heroes-container {
+  max-width: 1384px;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+
+.screen-heroes header {
+  margin-bottom: 2.6rem;
+}
+
+.introduction {
+  display: flex;
+  align-items: center;
+  max-width: 80rem;
+  margin: 0 auto;
+  /* margin-left: 28rem; */
+  margin-bottom: 8.4rem;
+}
+
+.introduction h1 {
+  color: #000;
+  font-family: Epilogue;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 1.4rem;
+}
+.introduction h4 {
+  color: #000;
+  font-family: Epilogue;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 1.6rem;
+}
+.container-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2.3rem 1.9rem 2.4rem 1.9rem;
+  gap: 2.4rem;
+  border-radius: 3rem;
+  background: #fff;
+  margin: 0 auto;
+}
+.card img:hover {
+  transform: scale(1.1);
+}
+.card img {
+  transition-property: transform;
+  transition-duration: 500ms;
+}
+.card {
+  /* position: relative; */
+  background: rgba(0, 0, 0, 0.14);
+  border-radius: 0.5rem;
+}
+.hero-name h4 {
+  /* position: absolute; */
+  color: black;
+  font-family: Epilogue;
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 3.12px;
+}
+.hero-name {
+  height: 7.9rem;
+  width: 24.5rem;
+  height: 5rem;
+}
