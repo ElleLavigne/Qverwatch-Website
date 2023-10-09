@@ -6,7 +6,7 @@ function changeScene(page) {
       screen.classList.add('hide')
     }
   }
-  
+
   selectedScreen.classList.remove('hide')
 }
 
@@ -15,4 +15,4 @@ function changeScene(page) {
 //   screen1.classList.remove("hide")
 // } else {
 //   screen1.classList.add("hide")
-// }
+// } 
